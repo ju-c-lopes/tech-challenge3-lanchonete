@@ -1,8 +1,3 @@
-variable "region" {
-  default     = "us-east-1"
-  description = "AWS Virginia"
-}
-
 variable "db_name" {}
 variable "db_user" {}
 variable "db_password" {
@@ -10,5 +5,5 @@ variable "db_password" {
 }
 
 variable "my_ip" {
-  description = ""
+  sensitive = true
 }

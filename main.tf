@@ -1,5 +1,5 @@
 provider "aws" {
-  region = var.region.default
+  region = "us-east-1"
 }
 
 data "aws_vpc" "default" {
